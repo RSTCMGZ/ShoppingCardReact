@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+  .products {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .products .product-item {
+    width: 50% !important;
+  }
+}
